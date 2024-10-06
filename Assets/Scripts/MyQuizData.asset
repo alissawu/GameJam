@@ -71,5 +71,11 @@ MonoBehaviour:
       - Tell a joke
       - Just laugh at jokes
       - Nothing, because you sat alone, and now you have no friends.
-      Categories: []
+      Categories:
+      - 1
+      - 2
+      - 3
+      - 1
+      - 2
+      - 3
       stageNumber: 1
