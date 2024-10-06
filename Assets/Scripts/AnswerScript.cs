@@ -10,8 +10,8 @@ public class AnswerScript : MonoBehaviour
     public string category; // for categories
 
     public void Answer() {
-        Debug.Log($"Selected Category: {category}"); // Log the selected category
-        quizManager.collectCategory(category); // Call a new method in QuizManager to collect categories
+        Debug.Log($"Selected Category: {category}"); 
+        quizManager.collectCategory(category); // Call QuizManager to collect categories
     }
 
 }
