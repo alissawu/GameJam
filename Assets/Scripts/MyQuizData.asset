@@ -91,3 +91,40 @@ MonoBehaviour:
       stageNumber: 1
       StoryText: "Nice. You sit down, and it\u2019s time to eat! You devour your
         food. "
+  - questionsInStage:
+    - Question: "You\u2019ve got to distinguish yourself from the other commoners.
+        What do you do in your free time?"
+      Answers:
+      - Draw!
+      - Read a comic
+      - Go biking around the neighborhood with your friends
+      - Play a video game
+      - Sleep
+      - Daydream and live in delusion
+      Categories:
+      - 1
+      - 2
+      - 3
+      - 1
+      - 2
+      - 3
+      stageNumber: 1
+      StoryText: "OMG IT\u2019S MIDDLE SCHOOL I\u2019M SO EXCITED I\u2019M GROWING
+        UP AND I HAVE NO CONTROL OVER MY FRONTAL LOBE BUT YAY MIDDLE SCHOOL!!!!!"
+    - Question: What sport, club, or elective do you join?
+      Answers:
+      - Band
+      - Student Government
+      - Track
+      - Honor Society
+      - Art Club
+      - Math Olympiad
+      Categories:
+      - 1
+      - 2
+      - 3
+      - 1
+      - 2
+      - 3
+      stageNumber: 1
+      StoryText: Yep. You're definitely cooler than everyone else.
