@@ -1980,6 +1980,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfd8d885c0dd64b10bcc3a0f8e1b5e8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startCanvas: {fileID: 1940861609}
+  nextCanvas: {fileID: 1609128847}
 --- !u!4 &1753689832
 Transform:
   m_ObjectHideFlags: 0
@@ -2112,7 +2114,7 @@ GameObject:
   - component: {fileID: 1962018708}
   - component: {fileID: 1962018707}
   m_Layer: 5
-  m_Name: Button_Start
+  m_Name: _Start_Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

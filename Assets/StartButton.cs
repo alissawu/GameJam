@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StartButton : MonoBehaviour
 {
@@ -15,4 +16,15 @@ public class StartButton : MonoBehaviour
     {
         
     }
+
+    public GameObject startCanvas;  // Drag the start canvas in the inspector
+    public GameObject nextCanvas;   // Drag the next canvas in the inspector
+
+    // Link to the button's OnClick event
+    public void SwitchCanvas()
+    {
+        SceneManager.LoadScene("CanvasQuiz(?)");
+    }
+
+
 }
