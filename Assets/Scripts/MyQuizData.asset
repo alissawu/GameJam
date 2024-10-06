@@ -128,3 +128,126 @@ MonoBehaviour:
       - 3
       stageNumber: 1
       StoryText: Yep. You're definitely cooler than everyone else.
+  - questionsInStage:
+    - Question: "Do you know how to drive (safely)? Unless otherwise posted, the
+        speed limit in cities and towns is\u2026"
+      Answers:
+      - 15 mph
+      - 20 mph
+      - 25 mph
+      - 30 mph
+      - 35 mph
+      - 40 mph
+      Categories:
+      - 1
+      - 2
+      - 3
+      - 1
+      - 2
+      - 3
+      stageNumber: 1
+      StoryText: "Congratulations on making it to High School! The next few years
+        are gonna be rough, but at least you\u2019re growing older, making new friends,
+        and getting more independent.   In fact, you\u2019re so independent you might
+        even be getting a car. Which is pretty insane! It means you can drive yourself
+        wherever you want!   Or can you?  "
+    - Question: Defensive drivers check their rear view mirror and side mirrors roughly
+        every...
+      Answers:
+      - 10 secs
+      - 12 secs
+      - Track
+      - Honor Society
+      - Art Club
+      - Math Olympiad
+      Categories:
+      - 10 secs
+      - 12 secs
+      - 15 secs
+      - 18 secs
+      - 20 secs
+      - 22 secs
+      stageNumber: 1
+      StoryText: Is it just me or is it getting hot in here? Surely not.
+  - questionsInStage:
+    - Question: Really, what is the meaning of life?
+      Answers:
+      - The pursuit of happiness and pleasure
+      - Contributing to the well-being of others
+      - Achieving personal success and recognition
+      - Understanding and accepting one's own existence
+      - Embracing the unknown and exploring new horizons
+      - Going to bed at the end of the day
+      Categories:
+      - 10 secs
+      - 12 secs
+      - 15 secs
+      - 18 secs
+      - 20 secs
+      - 22 secs
+      stageNumber: 1
+      StoryText: "FREEZE. It happened: you met your soulmate. Your angel. Your chosen
+        one. They are, quite literally, Perfect. After all, they picked up your pencil
+        when you dropped it, and then they gave it back to you WHILE smiling. And
+        now you\u2019re in love with them. How the hell are you supposed to get them
+        to notice you??????"
+  - questionsInStage:
+    - Question: "You drank too much\u2026get home!!"
+      Answers:
+      - Uber
+      - Find your friends
+      - Walk. literally just out the door
+      - Call your ex
+      - Cry until someone takes pity on you
+      - Don't (pass out)
+      Categories:
+      - 10 secs
+      - 12 secs
+      - 15 secs
+      - 18 secs
+      - 20 secs
+      - 22 secs
+      stageNumber: 1
+      StoryText: "Well. That was a phase.  But you know what isn\u2019t a phase?
+        COLLEGE.   Really, you\u2019ve come so far. You worked hard, failed quickly,
+        but bounced back just as fast. And now you\u2019re in a super great college.
+        Being a super smart student. Making better decisions than ever.   Which is
+        exactly why you\u2019re now here, on a Friday night. (but where is here?) "
+    - Question: How do you enjoy a casual night in?
+      Answers:
+      - Cook a new dish with friends
+      - Sleep early
+      - Binge watch your favorite shows or movies
+      - Grab your friends and do something spontaneous
+      - Retail therapy
+      - Homework
+      Categories:
+      - 10 secs
+      - 12 secs
+      - 15 secs
+      - 18 secs
+      - 20 secs
+      - 22 secs
+      stageNumber: 1
+      StoryText: "That was horrible. I\u2019m never going out again. Until next weekend,
+        b/c Hallowekend anyone?   But until then, maybe you\u2019ll stick to some
+        more wholesome activities. You know, for the spice of life. "
+  - questionsInStage:
+    - Question: What do you do?
+      Answers:
+      - Pursue a job that gets you the most money but makes you miserable
+      - Pursue a job that you're really passionate about but you're probably gonna
+        be broke (cry)
+      - Pursue job that makes you enough but you're indifferent
+      - Move back in with my parents
+      - Become a monk
+      - Just try not to die.
+      Categories:
+      - 10 secs
+      - 12 secs
+      - 15 secs
+      - 18 secs
+      - 20 secs
+      - 22 secs
+      stageNumber: 1
+      StoryText: 'Time to face life. '
