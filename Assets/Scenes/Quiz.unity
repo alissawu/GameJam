@@ -838,7 +838,7 @@ GameObject:
   - component: {fileID: 434897724}
   - component: {fileID: 434897723}
   m_Layer: 5
-  m_Name: CanvasQuiz(?)
+  m_Name: CanvasQuiz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1012,6 +1012,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529045375}
   m_CullTransparentMesh: 1
+--- !u!1 &686836319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 686836321}
+  - component: {fileID: 686836320}
+  m_Layer: 0
+  m_Name: PanelImageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &686836320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686836319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c8a2421345bd924991f4d3c0fe49646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelImage: {fileID: 0}
+  stageImages: []
+--- !u!4 &686836321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686836319}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &727090118
 GameObject:
   m_ObjectHideFlags: 0
@@ -2221,7 +2267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92620bfcec248ec44a66c1ac0565b066, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QnA: []
+  questionData: {fileID: 11400000, guid: 586bdf76dd5da2740b8b02dbf29c5c40, type: 2}
   options:
   - {fileID: 1390063685}
   - {fileID: 295445651}
@@ -2229,9 +2275,8 @@ MonoBehaviour:
   - {fileID: 1736455227}
   - {fileID: 915710442}
   - {fileID: 115008475}
-  currentQuestion: 0
   QuestionTxt: {fileID: 2067810485}
-  questionData: {fileID: 11400000, guid: 586bdf76dd5da2740b8b02dbf29c5c40, type: 2}
+  panelImageManager: {fileID: 686836320}
 --- !u!4 &1698780539
 Transform:
   m_ObjectHideFlags: 0
@@ -3101,3 +3146,4 @@ SceneRoots:
   - {fileID: 434897726}
   - {fileID: 2071037433}
   - {fileID: 1698780539}
+  - {fileID: 686836321}
