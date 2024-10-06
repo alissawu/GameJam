@@ -8,7 +8,7 @@ public class StartButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        SceneManager.LoadScene("Quiz");
     }
 
     // Update is called once per frame
@@ -21,10 +21,6 @@ public class StartButton : MonoBehaviour
     public GameObject nextCanvas;   // Drag the next canvas in the inspector
 
     // Link to the button's OnClick event
-    public void SwitchCanvas()
-    {
-        SceneManager.LoadScene("CanvasQuiz(?)");
-    }
 
 
 }
