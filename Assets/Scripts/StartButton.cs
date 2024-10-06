@@ -6,21 +6,17 @@ using UnityEngine.SceneManagement;
 public class StartButton : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    public string sceneName;
+    public void LoadScene(string sceneName)
     {
-        SceneManager.LoadScene("Quiz");
+        SceneManager.LoadScene(sceneName);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
-
-    public GameObject startCanvas;  // Drag the start canvas in the inspector
-    public GameObject nextCanvas;   // Drag the next canvas in the inspector
-
-    // Link to the button's OnClick event
 
 
 }
