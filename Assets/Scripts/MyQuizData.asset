@@ -30,6 +30,11 @@ MonoBehaviour:
       - Blue
       - Red
       stageNumber: 0
+      StoryText: "Hello baby! Welcome to the world!   It\u2019s a crazy, complex
+        place out there, but it\u2019s a crazy, complex place here as well. Being
+        a toddler is exhausting. Why didn\u2019t anyone warn you about having to
+        crawl, think, eat, sleep, and shout so much?   Luckily for you, you\u2019re
+        getting a break from your busy life, and now you can play a game.  "
   - questionsInStage:
     - Question: What are you thinking about right now?
       Answers:
@@ -47,6 +52,9 @@ MonoBehaviour:
       - 2
       - 3
       stageNumber: 1
+      StoryText: "The day is here. It\u2019s time for School. You don\u2019t know
+        it yet, or maybe you\u2019re just a genius and you do, but your choices here
+        determine every part of the rest of your entire life. No pressure though."
     - Question: Who do you sit with at lunch?
       Answers:
       - Someone you sat behind in class
@@ -63,6 +71,8 @@ MonoBehaviour:
       - 2
       - 3
       stageNumber: 1
+      StoryText: "Your first class was\u2026 interesting? You learned so much! You
+        really did. It\u2019s now lunchtime."
     - Question: What do you talk about with your new friend?
       Answers:
       - Ask about homework (???)
@@ -79,3 +89,5 @@ MonoBehaviour:
       - 2
       - 3
       stageNumber: 1
+      StoryText: "Nice. You sit down, and it\u2019s time to eat! You devour your
+        food. "
