@@ -12,19 +12,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d31de66988f43741a1300ace060e98f, type: 3}
   m_Name: MyQuizData
   m_EditorClassIdentifier: 
-  QnA:
-  - Question: Which toy do you pick?
-    Answers:
-    - Toy boat
-    - Stuffed animal
-    - Legos
-    - A flower
-    - Plastic baking set
-    - Fake piano
-    Categories:
-    - Blue
-    - Purple
-    - Red
-    - Purple
-    - Blue
-    - Red
+  stages:
+  - questionsInStage:
+    - Question: Which toy do you pick?
+      Answers:
+      - Toy boat
+      - Stuffed animal
+      - Lego
+      - Flower
+      - Plastic baking set
+      - Fake piano
+      Categories:
+      - Blue
+      - Purple
+      - Red
+      - Purple
+      - Blue
+      - Red
+      stageNumber: 0
+  - questionsInStage:
+    - Question: What are you thinking about right now?
+      Answers:
+      - I'm so excited for school!
+      - I'm hungry
+      - I hate the color purple
+      - When can I go home?
+      - What if I can't make friends?
+      - '[literally no thoughts]'
+      Categories:
+      - 1
+      - 2
+      - 3
+      - 1
+      - 2
+      - 3
+      stageNumber: 1
+    - Question: Who do you sit with at lunch?
+      Answers:
+      - Someone you sat behind in class
+      - Someone on your bus
+      - An upperclassman
+      - Someone you saw in the hallway who smiled at you
+      - A rando
+      - No one. Literally sit alone
+      Categories:
+      - 1
+      - 2
+      - 3
+      - 1
+      - 2
+      - 3
+      stageNumber: 1
+    - Question: What do you talk about with your new friend?
+      Answers:
+      - Ask about homework (???)
+      - Share your favorite color or favorite food or favorite teacher or favorite...
+      - Gossip
+      - Tell a joke
+      - Just laugh at jokes
+      - Nothing, because you sat alone, and now you have no friends.
+      Categories: []
+      stageNumber: 1
