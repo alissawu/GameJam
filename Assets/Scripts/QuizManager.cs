@@ -10,6 +10,9 @@ public class QuizManager : MonoBehaviour
     public GameObject[] options; // UI Buttons
     public TMP_Text QuestionTxt; // Question Text
 
+    public TMP_Text StoryTxt; // New reference for the story text
+
+
     private int currentStage = 0; // Track the current stage
     private int currentQuestionInStage = 0; // Track the question within the stage
 
@@ -38,6 +41,7 @@ public class QuizManager : MonoBehaviour
         if (currentQuestionInStage < currentStageData.questionsInStage.Count) {
             QuestionAndAnswers currentQnA = currentStageData.questionsInStage[currentQuestionInStage]; // Get the current question
             QuestionTxt.text = currentQnA.Question; // Update question text
+            StoryTxt.text = currentQnA.StoryText; // Update story text
 
             setAnswers(currentQnA); // Update buttons with answers
         } else {
