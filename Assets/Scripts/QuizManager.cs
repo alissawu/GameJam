@@ -4,40 +4,51 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-
 public class QuizManager : MonoBehaviour
 {
-    public List<QuestionAndAnswers> QnA;
+    public List<QuestionAndAnswers> QnA; // for manual adds, we won't need to worry about it 
     public GameObject[] options;
     public int currentQuestion;
-
     public TMP_Text QuestionTxt;
+    private Dictionary<string, int> categoryScores = new Dictionary<string, int>(); // Dictionary to keep track of scores for each category
+    public QuestionAndAnswersData questionData; // Reference to QuestionsAndAnswersData object
 
     private void Start() {
+        QnA = questionData.QnA; // fills it out with answers
         generateQuestion();
     }
 
-    public void correct() {
-        QnA.RemoveAt(currentQuestion);
-        generateQuestion(); // getting correct answer generates next question
-    }
-
     void setAnswers() {
-        for (int i=0; i<options.Length; i++) { // go through buttons one by one and assign answer to it
-            options[i].GetComponent<AnswerScript>().isCorrect = false; // all buttons falst at start, only correct gets set to true
-            options[i].transform.GetChild(0).GetComponent<TMP_Text>().text = QnA[currentQuestion].Answers[i];
-
-            if (QnA[currentQuestion].CorrectAnswer == i+1) {
-                options[i].GetComponent<AnswerScript>().isCorrect = true;
+        for (int i=0; i<options.Length; i++) { 
+            if (i < QnA[currentQuestion].Answers.Length) { // Check if there are enough answers
+                options[i].transform.GetChild(0).GetComponent<TMP_Text>().text = QnA[currentQuestion].Answers[i];
+                options[i].GetComponent<AnswerScript>().category = QnA[currentQuestion].Categories[i]; // Set the associated category
+                options[i].SetActive(true); // Make sure the button is active
+            } else {
+                options[i].SetActive(false); // Hide any unused options
             }
+
+            options[i].transform.GetChild(0).GetComponent<TMP_Text>().text = QnA[currentQuestion].Answers[i];
+            options[i].GetComponent<AnswerScript>().category = QnA[currentQuestion].Categories[i];
         }
     }
 
     void generateQuestion() {
-        // currentQuestion = Random.Range(0, QnA.Count); // change to be whichever question is on 
-        currentQuestion = 0;
-        QuestionTxt.text = QnA[currentQuestion].Question;
-        setAnswers();
+        if (QnA.Count > 0) {
+            currentQuestion = Random.Range(0, QnA.Count); // Select a random question from the list
+            QuestionTxt.text = QnA[currentQuestion].Question; // Update the question text
+            setAnswers(); // Update the buttons with new answers and categories
+        } else {
+            Debug.Log("Out of Questions");
+        }
+    }
 
+    public void collectCategory(string category) { 
+        if (categoryScores.ContainsKey(category)) {
+            categoryScores[category]++;
+        } else {
+            categoryScores[category] = 1;
+        }
+        Debug.Log($"Category {category} score: {categoryScores[category]}");
     }
 }

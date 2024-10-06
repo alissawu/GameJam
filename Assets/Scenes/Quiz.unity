@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 115008477}
   - component: {fileID: 115008480}
   m_Layer: 5
-  m_Name: Option2
+  m_Name: Option6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -268,8 +268,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99b4890340576be449648997111203e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
   quizManager: {fileID: 1698780538}
+  category: 
 --- !u!1 &220696182
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,7 +421,7 @@ GameObject:
   - component: {fileID: 295445653}
   - component: {fileID: 295445656}
   m_Layer: 5
-  m_Name: Option6
+  m_Name: Option2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -553,8 +553,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99b4890340576be449648997111203e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
   quizManager: {fileID: 1698780538}
+  category: red
 --- !u!1 &390603517
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,7 +567,7 @@ GameObject:
   - component: {fileID: 390603520}
   - component: {fileID: 390603519}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Option4Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -921,11 +921,11 @@ RectTransform:
   m_Children:
   - {fileID: 1132448828}
   - {fileID: 1390063686}
-  - {fileID: 115008476}
-  - {fileID: 915710443}
-  - {fileID: 1736455228}
-  - {fileID: 1886323270}
   - {fileID: 295445652}
+  - {fileID: 1886323270}
+  - {fileID: 1736455228}
+  - {fileID: 915710443}
+  - {fileID: 115008476}
   - {fileID: 1749906069}
   - {fileID: 529045376}
   - {fileID: 978104038}
@@ -1024,7 +1024,7 @@ GameObject:
   - component: {fileID: 727090121}
   - component: {fileID: 727090120}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Option1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1162,7 +1162,7 @@ GameObject:
   - component: {fileID: 915710444}
   - component: {fileID: 915710447}
   m_Layer: 5
-  m_Name: Option3
+  m_Name: Option5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1294,8 +1294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99b4890340576be449648997111203e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
   quizManager: {fileID: 1698780538}
+  category: food
 --- !u!1 &978104037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1384,7 +1384,7 @@ GameObject:
   - component: {fileID: 1054994780}
   - component: {fileID: 1054994779}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Option5Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1916,8 +1916,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99b4890340576be449648997111203e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
   quizManager: {fileID: 1698780538}
+  category: 
 --- !u!1 &1485084299
 GameObject:
   m_ObjectHideFlags: 0
@@ -2068,7 +2068,7 @@ GameObject:
   - component: {fileID: 1612526098}
   - component: {fileID: 1612526097}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Option6Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2221,43 +2221,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92620bfcec248ec44a66c1ac0565b066, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QnA:
-  - Question: Number
-    Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    CorrectAnswer: 2
-  - Question: Letter
-    Answers:
-    - a
-    - b
-    - c
-    - d
-    - e
-    - f
-    CorrectAnswer: 0
-  - Question: day
-    Answers:
-    - m
-    - tu
-    - w
-    - th
-    - f
-    - s
-    CorrectAnswer: 0
+  QnA: []
   options:
   - {fileID: 1390063685}
-  - {fileID: 115008475}
-  - {fileID: 915710442}
-  - {fileID: 1736455227}
-  - {fileID: 1886323269}
   - {fileID: 295445651}
+  - {fileID: 1886323269}
+  - {fileID: 1736455227}
+  - {fileID: 915710442}
+  - {fileID: 115008475}
   currentQuestion: 0
   QuestionTxt: {fileID: 2067810485}
+  questionData: {fileID: 11400000, guid: 586bdf76dd5da2740b8b02dbf29c5c40, type: 2}
 --- !u!4 &1698780539
 Transform:
   m_ObjectHideFlags: 0
@@ -2285,7 +2259,7 @@ GameObject:
   - component: {fileID: 1719138806}
   - component: {fileID: 1719138805}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Option3Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2555,8 +2529,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99b4890340576be449648997111203e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
   quizManager: {fileID: 1698780538}
+  category: red
 --- !u!1 &1749906068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2647,7 +2621,7 @@ GameObject:
   - component: {fileID: 1886323271}
   - component: {fileID: 1886323274}
   m_Layer: 5
-  m_Name: Option5
+  m_Name: Option3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2779,8 +2753,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99b4890340576be449648997111203e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCorrect: 0
   quizManager: {fileID: 1698780538}
+  category: red
 --- !u!1 &1987196507
 GameObject:
   m_ObjectHideFlags: 0
@@ -2793,7 +2767,7 @@ GameObject:
   - component: {fileID: 1987196510}
   - component: {fileID: 1987196509}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Option2Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
