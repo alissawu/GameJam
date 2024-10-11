@@ -366,7 +366,7 @@ MonoBehaviour:
   - {fileID: 2141134481}
   - {fileID: 427434321}
   - {fileID: 1104345396}
-  numQuestions: 0
+  numQuestions: 7
   button: {fileID: 115008477}
 --- !u!1 &145421566
 GameObject:
@@ -824,7 +824,7 @@ MonoBehaviour:
   - {fileID: 2141134481}
   - {fileID: 1742856829}
   - {fileID: 39601742}
-  numQuestions: 12
+  numQuestions: 7
   button: {fileID: 295445653}
 --- !u!1 &390603517
 GameObject:
@@ -1918,7 +1918,7 @@ MonoBehaviour:
   - {fileID: 1417477565}
   - {fileID: 2012550045}
   - {fileID: 39601742}
-  numQuestions: 0
+  numQuestions: 7
   button: {fileID: 915710444}
 --- !u!1 &978104037
 GameObject:
@@ -2101,8 +2101,8 @@ RectTransform:
   m_Children:
   - {fileID: 1591993552}
   - {fileID: 1489118173}
-  - {fileID: 1819918812}
   - {fileID: 984913121}
+  - {fileID: 1819918812}
   m_Father: {fileID: 812846118}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3195,7 +3195,7 @@ MonoBehaviour:
   - {fileID: 253531758}
   - {fileID: 2012550045}
   - {fileID: 1104345396}
-  numQuestions: 12
+  numQuestions: 7
   button: {fileID: 1390063687}
 --- !u!1 &1417477565
 GameObject:
@@ -4255,7 +4255,7 @@ MonoBehaviour:
   - {fileID: 1417477565}
   - {fileID: 427434321}
   - {fileID: 1359781992}
-  numQuestions: 0
+  numQuestions: 7
   button: {fileID: 1736455229}
 --- !u!1 &1742856829
 GameObject:
@@ -4765,7 +4765,7 @@ MonoBehaviour:
   - {fileID: 253531758}
   - {fileID: 1742856829}
   - {fileID: 1359781992}
-  numQuestions: 0
+  numQuestions: 7
   button: {fileID: 1886323271}
 --- !u!1 &1895536115
 GameObject:
