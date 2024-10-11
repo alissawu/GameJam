@@ -55,24 +55,6 @@ MonoBehaviour:
       StoryText: "The day is here. It\u2019s time for School. You don\u2019t know
         it yet, or maybe you\u2019re just a genius and you do, but your choices here
         determine every part of the rest of your entire life. No pressure though."
-    - Question: Who do you sit with at lunch?
-      Answers:
-      - Someone you sat behind in class
-      - Someone on your bus
-      - An upperclassman
-      - Someone you saw in the hallway who smiled at you
-      - A rando
-      - No one. Literally sit alone
-      Categories:
-      - longhair
-      - longhair
-      - longhair
-      - shorthair
-      - shorthair
-      - shorthair
-      stageNumber: 2
-      StoryText: "Your first class was\u2026 interesting? You learned so much! You
-        really did. It\u2019s now lunchtime."
     - Question: What do you talk about with your new friend?
       Answers:
       - Ask about homework (???)
@@ -92,25 +74,6 @@ MonoBehaviour:
       StoryText: "Nice. You sit down, and it\u2019s time to eat! You devour your
         food. "
   - questionsInStage:
-    - Question: "You\u2019ve got to distinguish yourself from the other commoners.
-        What do you do in your free time?"
-      Answers:
-      - Draw!
-      - Read a comic
-      - Go biking around the neighborhood with your friends
-      - Play a video game
-      - Sleep
-      - Daydream and live in delusion
-      Categories:
-      - happy
-      - angry
-      - happy
-      - shy
-      - angry
-      - shy
-      stageNumber: 3
-      StoryText: "OMG IT\u2019S MIDDLE SCHOOL I\u2019M SO EXCITED I\u2019M GROWING
-        UP AND I HAVE NO CONTROL OVER MY FRONTAL LOBE BUT YAY MIDDLE SCHOOL!!!!!"
     - Question: What sport, club, or elective do you join?
       Answers:
       - Band
@@ -118,7 +81,7 @@ MonoBehaviour:
       - Track
       - Honor Society
       - Art Club
-      - Math Olympiad
+      - Game Design Club
       Categories:
       - angry
       - happy
@@ -128,47 +91,6 @@ MonoBehaviour:
       - angry
       stageNumber: 3
       StoryText: Yep. You're definitely cooler than everyone else.
-  - questionsInStage:
-    - Question: "Do you know how to drive (safely)? Unless otherwise posted, the
-        speed limit in cities and towns is\u2026"
-      Answers:
-      - 15 mph
-      - 20 mph
-      - 25 mph
-      - 30 mph
-      - 35 mph
-      - 40 mph
-      Categories:
-      - buttonup
-      - buttonup
-      - buttonup
-      - layershirt
-      - tank
-      - layershirt
-      stageNumber: 4
-      StoryText: "Congratulations on making it to High School! The next few years
-        are gonna be rough, but at least you\u2019re growing older, making new friends,
-        and getting more independent.   In fact, you\u2019re so independent you might
-        even be getting a car. Which is pretty insane! It means you can drive yourself
-        wherever you want!   Or can you?  "
-    - Question: Defensive drivers check their rear view mirror and side mirrors roughly
-        every...
-      Answers:
-      - 10 secs
-      - 12 secs
-      - 15 secs
-      - 18 secs
-      - 20 secs
-      - 22 secs
-      Categories:
-      - tank
-      - buttonup
-      - layershirt
-      - buttonup
-      - layershirt
-      - layershirt
-      stageNumber: 4
-      StoryText: Is it just me or is it getting hot in here? Surely not.
   - questionsInStage:
     - Question: Really, what is the meaning of life?
       Answers:
@@ -192,27 +114,6 @@ MonoBehaviour:
         now you\u2019re in love with them. How the hell are you supposed to get them
         to notice you??????"
   - questionsInStage:
-    - Question: "You drank too much\u2026get home!!"
-      Answers:
-      - Uber
-      - Find your friends
-      - Walk. literally just out the door
-      - Call your ex
-      - Cry until someone takes pity on you
-      - Don't (pass out)
-      Categories:
-      - sneakers
-      - socks
-      - boots
-      - sneakers
-      - socks
-      - boots
-      stageNumber: 6
-      StoryText: "Well. That was a phase.  But you know what isn\u2019t a phase?
-        COLLEGE.   Really, you\u2019ve come so far. You worked hard, failed quickly,
-        but bounced back just as fast. And now you\u2019re in a super great college.
-        Being a super smart student. Making better decisions than ever.   Which is
-        exactly why you\u2019re now here, on a Friday night. (but where is here?) "
     - Question: How do you enjoy a casual night in?
       Answers:
       - Cook a new dish with friends

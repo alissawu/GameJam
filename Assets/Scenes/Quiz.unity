@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 115008478}
   - component: {fileID: 115008477}
   - component: {fileID: 115008480}
+  - component: {fileID: 115008481}
   m_Layer: 5
   m_Name: Option6
   m_TagString: Untagged
@@ -345,6 +346,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quizManager: {fileID: 1698780538}
   category: 
+--- !u!114 &115008481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115008475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 162d6d3e9fd15ff448cc7b2ba44265ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1819918811}
+  - {fileID: 1041979441}
+  - {fileID: 1984760159}
+  - {fileID: 2046052849}
+  - {fileID: 2141134481}
+  - {fileID: 427434321}
+  - {fileID: 1104345396}
+  numQuestions: 0
+  button: {fileID: 115008477}
 --- !u!1 &145421566
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,6 +668,7 @@ GameObject:
   - component: {fileID: 295445654}
   - component: {fileID: 295445653}
   - component: {fileID: 295445656}
+  - component: {fileID: 295445657}
   m_Layer: 5
   m_Name: Option2
   m_TagString: Untagged
@@ -780,6 +804,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quizManager: {fileID: 1698780538}
   category: red
+--- !u!114 &295445657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295445651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 162d6d3e9fd15ff448cc7b2ba44265ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1591993551}
+  - {fileID: 1100800265}
+  - {fileID: 1442953093}
+  - {fileID: 521225483}
+  - {fileID: 2141134481}
+  - {fileID: 1742856829}
+  - {fileID: 39601742}
+  numQuestions: 12
+  button: {fileID: 295445653}
 --- !u!1 &390603517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,6 +1762,7 @@ GameObject:
   - component: {fileID: 915710445}
   - component: {fileID: 915710444}
   - component: {fileID: 915710447}
+  - component: {fileID: 915710448}
   m_Layer: 5
   m_Name: Option5
   m_TagString: Untagged
@@ -1851,6 +1898,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quizManager: {fileID: 1698780538}
   category: food
+--- !u!114 &915710448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915710442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 162d6d3e9fd15ff448cc7b2ba44265ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1489118172}
+  - {fileID: 1041979441}
+  - {fileID: 1056298873}
+  - {fileID: 1287555930}
+  - {fileID: 1417477565}
+  - {fileID: 2012550045}
+  - {fileID: 39601742}
+  numQuestions: 0
+  button: {fileID: 915710444}
 --- !u!1 &978104037
 GameObject:
   m_ObjectHideFlags: 0
@@ -3119,9 +3188,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objects:
-  - {fileID: 39601742}
   - {fileID: 1819918811}
+  - {fileID: 1041979441}
+  - {fileID: 1056298873}
   - {fileID: 521225483}
+  - {fileID: 253531758}
+  - {fileID: 2012550045}
+  - {fileID: 1104345396}
   numQuestions: 12
   button: {fileID: 1390063687}
 --- !u!1 &1417477565
@@ -3832,7 +3905,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1698780539}
   - component: {fileID: 1698780538}
-  - component: {fileID: 1698780540}
   m_Layer: 0
   m_Name: QuizManager
   m_TagString: Untagged
@@ -3878,25 +3950,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1698780540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1698780537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5edc1a79c501c5d4ea20a94d9e9c52b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skin: {fileID: 0}
-  hair: {fileID: 0}
-  face: {fileID: 0}
-  shirt: {fileID: 0}
-  pants: {fileID: 0}
-  shoes: {fileID: 0}
-  wings: {fileID: 0}
 --- !u!1 &1719138803
 GameObject:
   m_ObjectHideFlags: 0
@@ -4046,6 +4099,7 @@ GameObject:
   - component: {fileID: 1736455230}
   - component: {fileID: 1736455229}
   - component: {fileID: 1736455232}
+  - component: {fileID: 1736455233}
   m_Layer: 5
   m_Name: Option4
   m_TagString: Untagged
@@ -4181,6 +4235,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quizManager: {fileID: 1698780538}
   category: red
+--- !u!114 &1736455233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736455227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 162d6d3e9fd15ff448cc7b2ba44265ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 1591993551}
+  - {fileID: 1100800265}
+  - {fileID: 1442953093}
+  - {fileID: 2046052849}
+  - {fileID: 1417477565}
+  - {fileID: 427434321}
+  - {fileID: 1359781992}
+  numQuestions: 0
+  button: {fileID: 1736455229}
 --- !u!1 &1742856829
 GameObject:
   m_ObjectHideFlags: 0
@@ -4533,6 +4609,7 @@ GameObject:
   - component: {fileID: 1886323272}
   - component: {fileID: 1886323271}
   - component: {fileID: 1886323274}
+  - component: {fileID: 1886323275}
   m_Layer: 5
   m_Name: Option3
   m_TagString: Untagged
@@ -4668,6 +4745,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quizManager: {fileID: 1698780538}
   category: red
+--- !u!114 &1886323275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886323269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 162d6d3e9fd15ff448cc7b2ba44265ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 984913120}
+  - {fileID: 1100800265}
+  - {fileID: 1984760159}
+  - {fileID: 1287555930}
+  - {fileID: 253531758}
+  - {fileID: 1742856829}
+  - {fileID: 1359781992}
+  numQuestions: 0
+  button: {fileID: 1886323271}
 --- !u!1 &1895536115
 GameObject:
   m_ObjectHideFlags: 0
